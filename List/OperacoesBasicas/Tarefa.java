@@ -8,6 +8,13 @@ public class Tarefa {
         this.descricao = descricao;
     }
 
+    @Override
+    public String toString() {
+        return "Tarefa{" +
+                "descricao='" + descricao + '\'' +
+                '}';
+    }
+
     public String getDescricao() {
         return descricao;
     }
