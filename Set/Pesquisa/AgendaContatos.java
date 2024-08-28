@@ -39,4 +39,23 @@ public class AgendaContatos {
         }
         return contatoAtualizado;
     }
+
+    public static void main(String[] args) {
+        AgendaContatos agendaContatos = new AgendaContatos();
+
+        agendaContatos.exibirContatos();
+
+        agendaContatos.adicionarContato("ana",948849678);
+        agendaContatos.adicionarContato("Maria",948849123);
+        agendaContatos.adicionarContato("Carlos",948849234);
+        agendaContatos.adicionarContato("Jose",948849356);
+        agendaContatos.adicionarContato("Adao",948849987);
+        agendaContatos.adicionarContato("Joana",948849435);
+
+        agendaContatos.exibirContatos();
+
+    //System.out.println(agendaContatos.pesquisarPorNome("Maria"));
+      //  System.out.println();
+
+    }
 }
